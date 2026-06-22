@@ -11,9 +11,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="0" />
               <option name="method" value="POST" />
@@ -41,9 +38,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="1" />
@@ -73,9 +67,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="2" />
               <option name="method" value="POST" />
@@ -103,9 +94,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="3" />
@@ -135,9 +123,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="4" />
               <option name="method" value="POST" />
@@ -165,9 +150,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="5" />
@@ -197,9 +179,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="6" />
               <option name="method" value="POST" />
@@ -228,9 +207,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="7" />
               <option name="method" value="POST" />
@@ -247,6 +223,91 @@
               </option>
               <option name="res" value="{&quot;id&quot;:7,&quot;name&quot;:&quot;mohamed&quot;,&quot;surname&quot;:&quot;khedr&quot;,&quot;email&quot;:&quot;mohamed_khedr1@gmail.com&quot;,&quot;address&quot;:&quot;boleean&quot;,&quot;alerting&quot;:true,&quot;energyAlertingThreshold&quot;:2.3}" />
               <option name="time" value="2026-06-22 19:40:17" />
+              <option name="uri" value="/api/v1/user" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="8">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;name&quot;: &quot;mohamed&quot;,&#10;  &quot;surname&quot;: &quot;khedr&quot;,&#10;  &quot;email&quot;: &quot;mohamed_khedr1@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;boleean&quot;,&#10;  &quot;alerting&quot;: true,&#10;  &quot;energyAlertingThreshold&quot;: 2.3&#10;}" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="8" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map>
+                  <entry key="address" value="" />
+                  <entry key="alerting" value="false" />
+                  <entry key="email" value="" />
+                  <entry key="energyAlertingThreshold" value="0.0" />
+                  <entry key="id" value="0" />
+                  <entry key="name" value="" />
+                  <entry key="surname" value="" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Mon Jun 22 20:33:20 EEST 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-06-22 20:33:20" />
+              <option name="uri" value="/api/v1/user" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="9">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;name&quot;: &quot;mohamed&quot;,&#10;  &quot;surname&quot;: &quot;khedr&quot;,&#10;  &quot;email&quot;: &quot;mohamed_khedr2@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;boleean&quot;,&#10;  &quot;alerting&quot;: true,&#10;  &quot;energyAlertingThreshold&quot;: 2.3&#10;}" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="9" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map>
+                  <entry key="address" value="" />
+                  <entry key="alerting" value="false" />
+                  <entry key="email" value="" />
+                  <entry key="energyAlertingThreshold" value="0.0" />
+                  <entry key="id" value="0" />
+                  <entry key="name" value="" />
+                  <entry key="surname" value="" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:9,&quot;name&quot;:&quot;mohamed&quot;,&quot;surname&quot;:&quot;khedr&quot;,&quot;email&quot;:&quot;mohamed_khedr2@gmail.com&quot;,&quot;address&quot;:&quot;boleean&quot;,&quot;alerting&quot;:true,&quot;energyAlertingThreshold&quot;:2.3}" />
+              <option name="time" value="2026-06-22 20:33:35" />
+              <option name="uri" value="/api/v1/user" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="10">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="10" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;&quot;,&quot;surname&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;,&quot;address&quot;:&quot;&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0},{&quot;id&quot;:5,&quot;name&quot;:&quot;mohamed&quot;,&quot;surname&quot;:&quot;khedr&quot;,&quot;email&quot;:&quot;mohamed_khedr@gmail.com&quot;,&quot;address&quot;:&quot;boleean&quot;,&quot;alerting&quot;:true,&quot;energyAlertingThreshold&quot;:2.3},{&quot;id&quot;:7,&quot;name&quot;:&quot;mohamed&quot;,&quot;surname&quot;:&quot;khedr&quot;,&quot;email&quot;:&quot;mohamed_khedr1@gmail.com&quot;,&quot;address&quot;:&quot;boleean&quot;,&quot;alerting&quot;:true,&quot;energyAlertingThreshold&quot;:2.3},{&quot;id&quot;:9,&quot;name&quot;:&quot;mohamed&quot;,&quot;surname&quot;:&quot;khedr&quot;,&quot;email&quot;:&quot;mohamed_khedr2@gmail.com&quot;,&quot;address&quot;:&quot;boleean&quot;,&quot;alerting&quot;:true,&quot;energyAlertingThreshold&quot;:2.3}]" />
+              <option name="time" value="2026-06-22 20:45:36" />
               <option name="uri" value="/api/v1/user" />
             </ReqHistory>
           </value>

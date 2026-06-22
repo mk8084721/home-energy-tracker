@@ -9,6 +9,9 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Service
 @RequiredArgsConstructor
 @Slf4j
@@ -22,5 +25,15 @@ public class UserService {
         User savedUser = userRepository.save(dtoToUserConverter.convert(userDto));
         log.info("user Created Successfully: {}",savedUser);
         return userToUserDtoConverter.convert(savedUser);
+    }
+
+    public List<UserDto> getAllUsers() {
+        log.info("Getting All Users .... \n");
+        List<User> users = userRepository.findAll();
+        List<UserDto> dtos = users.stream()
+                .map(userToUserDtoConverter::convert)
+                .collect((Collectors.toList()));
+        log.info("We found {}: {}",dtos.size(),dtos);
+        return dtos;
     }
 }
