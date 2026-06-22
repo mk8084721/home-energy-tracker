@@ -36,4 +36,12 @@ public class UserService {
         log.info("We found {}: {}",dtos.size(),dtos);
         return dtos;
     }
+
+    public UserDto findUserByEmail(String email) {
+        log.info("Searching For User {} .... \n",email);
+        User user = userRepository.findUserByEmail(email);
+        UserDto dto = userToUserDtoConverter.convert(user);
+        log.info("We found user successfully: {}",dto.getEmail());
+        return dto;
+    }
 }

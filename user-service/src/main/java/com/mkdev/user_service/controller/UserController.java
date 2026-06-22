@@ -21,10 +21,14 @@ public class UserController {
         return new ResponseEntity<>(created, HttpStatus.CREATED);
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public ResponseEntity<List<UserDto>> getAllUsers(){
         List<UserDto> users = userService.getAllUsers();
         return new ResponseEntity<>(users, HttpStatus.OK);
     }
-
+    @GetMapping
+    public ResponseEntity<UserDto> findUserByEmail(@RequestParam String email){
+        UserDto user = userService.findUserByEmail(email);
+        return new ResponseEntity<>(user, HttpStatus.OK);
+    }
 }
